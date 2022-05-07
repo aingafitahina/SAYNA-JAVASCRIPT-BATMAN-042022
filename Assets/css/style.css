@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&family=Space+Grotesk:wght@500&display=swap')
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    --var-veryYellow : #FFFF00;
+    --var-fewyellow : #F8F184;
+    --var-blue : #19587D;
+    --var-red : #b11313;
+    --var-back : #0D0E09;
+    --var-grey :#C4C4C4;
+    --var-white : #ffffff;
+    --var-veryBlack : #000000;
+
+
+}
+
+h1{
+    color: white;
+    font-family: 'Rajdhani', 'sans-serif';
+    font-size: 36px;
+}
+
+h2{
+    font-family: 'Space Grotesk', sans-serif;
+}
+header .brand{
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+     display: inline;
+     text-decoration: none;
+     color: white;
+     padding: 10px;
+    
+ }
+
+ /* style text sur le header*/
+.text-header{
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    position: sticky;
+    top: 35%;
+}
+
+/*style sur des icons*/
+.icon{
+    
+    position: fixed;
+    margin-top: 7%;
+    text-align: center;
+    margin-left: 80%;
+    top:10%;
+    
+}
+
+.icon1:hover{
+    color: var(--var-veryYellow);
+}
+
+/*style boutton sur la première section qui est header*/
+.button1{
+    background: linear-gradient(to bottom right ,#19587D 0% ,#EDDEBF 100%);
+    opacity: 40%;
+    color: #ffffff;
+    border: 1px solid #C4C4C4;
+    width: 20%;
+    padding: 2%;
+    font-family: 'Rajdhani','sans-serif';
+}
+
+/* style de la flèche */
+#fleche{
+text-align: center;
+}
+
+
+/* style card*/
+.card1{
+    padding: 2%;
+    text-align: center;
+}
+
+/*style image slide*/
+#img-slide{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#img-bat8{
+    text-align: center;
+}
+
+/*style flèche slide*/
+.btn{
+    cursor: pointer;
+    background-image: url(../img/Home/);
+}
+
+input[type='mail']{
+    width: 50%;
+    color: white;
+    background: none;
+    border: transparent;
+    border-bottom: 1px solid var(--var-grey);
+
+}
+
+#select{
+    width: 50%;
+    color: white;
+    background: none;
+    border: transparent;
+    border-bottom: 1px solid var(--var-grey);
+}
+
+#message{
+    width: 50%;
+    color: white;
+    background: none;
+    border: transparent;
+    border-bottom: 1px solid var(--var-grey);
+}
+.formulaire{
+    margin: auto;
+    position: relative;
+    color: white;
+}
