@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&family=Space+Grotesk:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    --var-veryYellow : #FFFF00;
+    --var-fewyellow : #F8F184;
+    --var-blue : #19587D;
+    --var-red : #b11313;
+    --var-back : #0D0E09;
+    --var-grey :#C4C4C4;
+    --var-white : #ffffff;
+    --var-veryBlack : #000000;
+
+
+}
+
+h1{
+    color: white;
+    font-family: 'Rajdhani', 'sans-serif';
+    font-size: 36px;
+}
+
+h2{
+    font-family: 'Space Grotesk', sans-serif;
+}
+header .brand{
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+     display: inline;
+     text-decoration: none;
+     color: white;
+     padding: 10px;
+    
+ }
+
+ /* style text sur le header*/
+.text-header{
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    position: sticky;
+    top: 35%;
+}
+
+/*style sur des icons*/
+.icon{
+    
+    position: fixed;
+    margin-top: 7%;
+    text-align: center;
+    margin-left: 90%;
+    top:10%;
+    
+}
+
+.icon1:hover{
+    color: var(--var-veryYellow);
+}
+
+/* styyle de quiz*/
+.QUIZ1{
+    background-color: var(--var-grey);
+    width: 20%;
+}
+
+p{
+   color: var(--var-white);
+}
